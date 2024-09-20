@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import '../styles/Login.css';
 import { useNavigate } from 'react-router-dom';
+import logo from '../assets/logo.png'
 
 const Login = () => {
   const [identifier, setIdentifier] = useState('');
@@ -38,9 +39,11 @@ const Login = () => {
 
   return (
     <div className="login-container">
-      <h2 className="tamil-text">
-        படைப்பாளன் மட்டுமே கடவுள் அல்ல; பசித்தோருக்காக உழைப்பவர் கடவுளுக்கு நிகர்.
-      </h2>
+      <img 
+  className="logo" 
+  src={logo} 
+  alt="Logo" 
+/>
 
       <div className="login-form-container">
         <div className="login-form">
