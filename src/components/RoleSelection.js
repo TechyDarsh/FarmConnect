@@ -50,7 +50,7 @@ const RoleSelection = () => {
             onClick={() => handleRoleSelection('customer')}
           >
             <img src={customerIcon} alt="Customer Icon" />
-            Customer
+            Bulk Orders
           </button>
 
           <button 
