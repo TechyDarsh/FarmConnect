@@ -1,0 +1,118 @@
+.farmer-container {
+    padding: 20px; /* Reduce padding for smaller screens */
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    width: 100%; /* Set width to 100% */
+    max-width: 360px; /* Set a maximum width for larger screens */
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.crop-info-container {
+    text-align: center; /* Center all elements */
+    margin-top: 20px;
+}
+
+.crop-info-title {
+    margin-bottom: 10px;
+}
+
+.crop-image-container {
+    margin: 0 auto;
+    width: 100%; /* Make image container responsive */
+    max-width: 200px; /* Set max width */
+    height: auto; /* Adjust height to be auto */
+    position: relative;
+}
+
+.crop-image {
+    width: 100%; /* Make the image responsive */
+    height: auto;
+    object-fit: contain;
+}
+
+.crop-info {
+    margin-top: 10px;
+}
+
+.crop-info p {
+    margin: 5px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.farmer-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.profile-icon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.crop-details {
+    margin-top: 20px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.fertilizer-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.fertilizer-checkbox input {
+    margin-right: 10px;
+}
+
+.price-slider {
+    width: 100%;
+}
+
+.farmer-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4ddb59;
+    border-radius: 10px;
+}
+
+.footer-button {
+    background-color: transparent;
+    border: none;
+    padding: 5px 10px; /* Adjust padding for smaller buttons */
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-button img {
+    width: 20px; /* Resize footer images */
+    height: 20px;
+    margin-bottom: 5px; /* Add some space between the image and label */
+}
+
+.footer-button span {
+    font-size: 12px; /* Add a small label below each icon */
+    color: #fff;
+}
+
+.footer-button:active {
+    transform: scale(0.95);
+}

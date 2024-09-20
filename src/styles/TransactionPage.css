@@ -1,0 +1,115 @@
+/* TransactionPage.css */
+
+/* General Container Styling */
+.transaction-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* Transaction Status Section */
+  .transaction-status {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transaction-status h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .crop-status {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .crop-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .status {
+    font-weight: bold;
+  }
+  
+  .completed {
+    color: green;
+  }
+  
+  .pending {
+    color: orange;
+  }
+  
+  .due {
+    color: red;
+  }
+  
+  .due-monday {
+    color: blue;
+  }
+  
+  /* Crop Selection Section */
+  .crop-selection {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .crop-selection h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .crop-selection select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+  /* Price Trends Section */
+  .price-trends {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .price-trends h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .graph-placeholder {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    border: 2px dashed #ccc;
+  }
+  .sold {
+    color :red;
+  }

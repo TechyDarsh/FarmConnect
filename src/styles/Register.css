@@ -1,0 +1,80 @@
+/* src/styles/Register.css */
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../assets/background.png'); 
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0); 
+    text-align: top;
+}
+
+.register-title {
+    font-size: 2rem;
+    margin-bottom: 150px; /* Adjusted for consistency */
+}
+
+.register-form, .otp-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px; 
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0); 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0); 
+    align-items: center; 
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.register-input, .otp-input {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 20px; /* Match the rounded corners of login inputs */
+    background-color: rgba(255, 255, 255, 0.7); /* Transparent background */
+    font-size: 1rem;
+    color: #00000084; /* Text color */
+}
+
+.register-input::placeholder, .otp-input::placeholder {
+    color: #000; /* Make placeholder text visible */
+}
+
+.register-input:focus, .otp-input:focus {
+    background-color: #fff; /* Show background on focus */
+    color: #000; /* Text color on focus */
+}
+
+.register-button, .otp-button {
+    width: 50%;
+    padding-top: px;
+    border: none;
+    border-radius: 24px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    align-self: center; /* Center the button horizontally */
+}
+
+.register-button:hover, .otp-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); 
+}
+
+.register-link {
+    margin-top: 1rem;
+}
+
+.register-link a {
+    color: #007bff;
+    text-decoration: none;
+}
