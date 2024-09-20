@@ -4,6 +4,7 @@ import Login from './components/Login';
 import Register from './components/Register';
 import RoleSelection from './components/RoleSelection';
 import Farmer from './components/Farmer';
+import BuyerHomePage from './components/BuyerHomePage';
 import TransactionPage from './components/TransactionPage';
 import Track from './components/Track';
 
@@ -19,6 +20,8 @@ function App() {
         <Route path="/farmer" element={<Farmer />} />
         <Route path="/transaction" element={<TransactionPage />} />
         <Route path="/delivery" element={<Track />} />
+        <Route path="/industry" element={<BuyerHomePage/>}/>
+        
       </Routes>
     </Router>
   );

@@ -1,0 +1,205 @@
+/* General Styles */
+.buyer-homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #eafdf5;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Top section with greeting and notifications */
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 30px;
+}
+
+.greeting h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #16b025;
+}
+
+.notifications {
+  font-size: 1.5rem;
+  color: #16b025;
+}
+
+/* Search bar styling */
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 350px;
+  margin-top: 15px;
+}
+
+.search-container input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.search-container i {
+  font-size: 18px;
+  color: #ccc;
+}
+
+/* Consultation banner styling */
+.consultation-banner {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  width: 100%;
+  max-width: 350px;
+}
+
+.consultation-text {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.consultation-banner .call-now-btn {
+  background-color: #16b025;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.consultation-banner .call-now-btn:hover {
+  background-color: #1ca30d;
+}
+
+/* Featured products section */
+.featured-section {
+  width: 100%;
+  max-width: 350px;
+  margin-top: 20px;
+}
+
+.featured-section h3 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.featured-section a {
+  font-size: 1rem;
+  color: #16b025;
+  text-decoration: none;
+}
+
+/* Product grid and cards */
+.product-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  width: 100%;
+  max-width: 350px;
+  margin-top: 15px;
+}
+
+.product-card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.product-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.add-btn {
+  background-color: #16b025;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-btn:hover {
+  background-color: #1ca30d;
+}
+
+/* Bottom navigation */
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 350px;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-btn {
+  font-size: 1.2rem;
+  border: none;
+  background: none;
+  color: #16b025;
+  cursor: pointer;
+}
+
+/* Role Button Hover effect like Role Selection */
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* For smaller screens (mobile-specific adjustments) */
+@media (max-width: 600px) {
+  .buyer-homepage {
+    padding: 15px;
+  }
+
+  .search-container input {
+    font-size: 0.9rem;
+  }
+
+  .product-card img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .bottom-nav .nav-btn {
+    font-size: 1rem;
+  }
+}

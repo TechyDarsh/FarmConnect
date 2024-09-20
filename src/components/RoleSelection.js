@@ -15,6 +15,9 @@ const RoleSelection = () => {
     if (role === 'farmer') {
       navigate('/farmer'); 
     }
+    else if (role === 'industry'){
+      navigate('/industry')
+    }
     
   };
 
